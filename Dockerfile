@@ -15,7 +15,7 @@ RUN apt-get update -y \
         apache2-dev
 
 ADD html /var/www/html
-ADD php-5.6.31/ext/example /tmp/extensions/example
+ADD php-ext/example /tmp/extensions/example
 RUN cd /tmp/extensions/example \
     && phpize \
     && ./configure \

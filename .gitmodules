@@ -1,0 +1,3 @@
+[submodule "php5.6.31"]
+	path = php5.6.31
+	url = git@github.com:php/php-src.git
